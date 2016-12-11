@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<collage version="2" format="5:3" orientation="landscape" theme="regulargrid" shadows="0" captions="1" albumUID="7dd319ded2038d94b2628f572cc8d07e">
+ <albumTitle>holi</albumTitle>
+ <albumDate>March, 2009</albumDate>
+ <background type="solid" color="FFFFFFFF"/>
+ <spacing value="0.054625"/>
+ <node x="0.005859" y="0.009772" w="0.325195" h="0.237785" theta="0.000000" scale="333.000000">
+  <theme>noborder</theme>
+  <src>$Desktop\websites\templets\festival\images\holi\holi.jpg</src>
+  <uid>e03a020342055b480000000000000000</uid>
+ </node>
+ <node x="0.337891" y="0.009772" w="0.325195" h="0.237785" theta="0.000000" scale="333.000000">
+  <theme>noborder</theme>
+  <src>$Desktop\websites\templets\festival\images\holi\holi-in-Mathura_02.jpg</src>
+  <uid>40aad05c5a4621260000000000000000</uid>
+ </node>
+ <node x="0.668945" y="0.009772" w="0.325195" h="0.237785" theta="0.000000" scale="333.000000">
+  <theme>noborder</theme>
+  <src>$Desktop\websites\templets\festival\images\holi\4aa8eafc47714a8e94a3dad87aaa32e8.jpg</src>
+  <uid>f3e41b21f3faf8b60000000000000000</uid>
+ </node>
+ <node x="0.005859" y="0.257329" w="0.325195" h="0.237785" theta="0.000000" scale="333.000000">
+  <theme>noborder</theme>
+  <src>$Desktop\websites\templets\festival\images\holi\12594570825_e24e23cb9d_o.jpg</src>
+  <uid>becb2175384ca0c40000000000000000</uid>
+ </node>
+ <node x="0.337891" y="0.257329" w="0.325195" h="0.237785" theta="0.000000" scale="333.000000">
+  <theme>noborder</theme>
+  <src>$Desktop\websites\templets\festival\images\holi\HD-holi-facebook-cover-images-4K-detail.jpg</src>
+  <uid>e000adc1c0982f240000000000000000</uid>
+ </node>
+ <node x="0.668945" y="0.257329" w="0.325195" h="0.237785" theta="0.000000" scale="333.000000">
+  <theme>noborder</theme>
+  <src>$Desktop\websites\templets\festival\images\holi\download.jpg</src>
+  <uid>1980e12aad467cde0000000000000000</uid>
+ </node>
+ <node x="0.005859" y="0.504886" w="0.325195" h="0.237785" theta="0.000000" scale="333.000000">
+  <theme>noborder</theme>
+  <src>$Desktop\websites\templets\festival\images\holi\Burst-of-Red-Holi-India.jpg</src>
+  <uid>50391ed6b3879e290000000000000000</uid>
+ </node>
+ <node x="0.337891" y="0.504886" w="0.325195" h="0.237785" theta="0.000000" scale="333.000000">
+  <theme>noborder</theme>
+  <src>$Desktop\websites\templets\festival\images\holi\holi-festival-of-colours-boltons-india_2013.jpg</src>
+  <uid>37c36b126503c26b0000000000000000</uid>
+ </node>
+ <node x="0.668945" y="0.504886" w="0.325195" h="0.237785" theta="0.000000" scale="333.000000">
+  <theme>noborder</theme>
+  <src>$Desktop\websites\templets\festival\images\holi\Mikadun-Shutterstockcom.jpg</src>
+  <uid>8c9add9c8548c0df0000000000000000</uid>
+ </node>
+ <node x="0.005859" y="0.752443" w="0.325195" h="0.237785" theta="0.000000" scale="333.000000">
+  <theme>noborder</theme>
+  <src>$Desktop\websites\templets\festival\images\holi\Kids.jpg</src>
+  <uid>5ba78417b4609f780000000000000000</uid>
+ </node>
+ <node x="0.337891" y="0.752443" w="0.325195" h="0.237785" theta="0.000000" scale="333.000000">
+  <theme>noborder</theme>
+  <src>$Desktop\websites\templets\festival\images\holi\images.jpg</src>
+  <uid>cc7af647928157ed0000000000000000</uid>
+ </node>
+ <node x="0.668945" y="0.752443" w="0.325195" h="0.237785" theta="0.000000" scale="333.000000">
+  <theme>noborder</theme>
+  <src>$Desktop\websites\templets\festival\images\holi\holi.jpg</src>
+  <uid>e03a020342055b480000000000000000</uid>
+ </node>
+</collage>

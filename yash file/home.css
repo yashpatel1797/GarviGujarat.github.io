@@ -1,0 +1,478 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+body{
+	font-family: Arial;
+	margin:auto;
+}
+a
+{
+	
+	
+}
+
+/* img{
+	max-width:100%;
+}    pachi add karvanu 6e*/
+#header {
+	float:center;
+}
+
+div#logo{
+	float:left;
+	cursor:pointer;
+}
+
+div#advertisement{
+	float:right;
+}
+
+div#header {
+    width: 1350px;
+        max-width:100%;
+    margin: 0px auto;
+    display: block;
+
+    padding-bottom:10px;
+   /* border-bottom:3px solid #666666; */
+    /* margin-top: 0; */
+    /* margin-bottom: 0; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+
+.clear{
+	clear:both;
+}
+
+#navigation li{
+	list-style:none;
+	float:left;
+	
+	cursor:pointer;
+	opacity:1.0;
+    filter:alpha(opacity:5.7);
+}
+
+div#navigation {
+    background:black;
+    color: white;
+     margin-left: 0px;
+    font-family: calibri;
+	font-size:20px;
+    opacity:0.7;
+    filter:alpha(opacity:0.7);
+}
+
+#navigation li:hover {
+    background: rgba(150, 240, 240, 0.38);
+	
+    transition:all 0.45s;
+    opacity:0.7;
+    filter:alpha(opacity:0.7);
+}
+
+div#container{
+	width:1350px;
+	max-width:100% 0;
+	margin:-10 auto;
+	margin-top: -10px;
+	    margin-left: -1px;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+/* slide show start */
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/*.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}*/
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .8}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+
+/* slid show end */
+
+/* animation start */
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'feathericons';
+	src:url('../fonts/feathericons/feathericons.eot?-8is7zf');
+	src:url('../fonts/feathericons/feathericons.eot?#iefix-8is7zf') format('embedded-opentype'),
+		url('../fonts/feathericons/feathericons.woff?-8is7zf') format('woff'),
+		url('../fonts/feathericons/feathericons.ttf?-8is7zf') format('truetype'),
+		url('../fonts/feathericons/feathericons.svg?-8is7zf#feathericons') format('svg');
+}
+
+.grid {
+	position: relative;
+	margin: 0 auto;
+	padding: 1em 1 14em;
+	
+	list-style: none;
+	text-align: center;
+}
+
+/* Common style */
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	
+	min-width: 320px;
+	max-width: 480px;
+	max-height: 360px;
+	
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+	margin:20px;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.grid figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+
+.grid figure h2 span {
+	font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+/* Individual effects */
+
+/*---------------*/
+/***** Lily *****/
+/*---------------*/
+
+
+
+/*---------------*/
+/***** Honey *****/
+/*---------------*/
+
+figure.effect-honey {
+	background: #4a3753;
+}
+
+figure.effect-honey img {
+	opacity: 0.9;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+
+figure.effect-honey:hover img {
+	opacity: 0.5;
+	transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+}
+
+figure.effect-honey figcaption::before {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 10px;
+	background: #fff;
+	content: '';
+	-webkit-transform: translate3d(0,10px,0);
+	transform: translate3d(0,10px,0);
+}
+
+figure.effect-honey h2 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 1em 1.5em;
+	width: 100%;
+	text-align: left;
+	-webkit-transform: translate3d(0,-30px,0);
+	transform: translate3d(0,-30px,0);
+}
+
+figure.effect-honey h2 i {
+	font-style: normal;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,-30px,0);
+	transform: translate3d(0,-30px,0);
+}
+
+figure.effect-honey figcaption::before,
+figure.effect-honey h2 {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+figure.effect-honey:hover figcaption::before,
+figure.effect-honey:hover h2,
+figure.effect-honey:hover h2 i {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+
+@media screen and (max-width: 50em) {
+	.content {
+		padding: 0 10px;
+		text-align: center;
+	}
+	.grid figure {
+		display: inline-block;
+		float: none;
+		margin: 10px auto;
+		width: 100%;
+	}
+}
+
+
+
+/* Footer */
+
+	#footer {
+		background-color: #1E2832;
+		color: rgba(255, 255, 255, 0.75);
+		text-align: center;
+	}
+
+		#footer input, #footer select, #footer textarea {
+			color: #fff;
+		}
+
+		#footer a {
+			color: #51BAA4;
+		}
+
+		#footer strong, #footer b {
+			color: #fff;
+		}
+
+		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
+			color: #fff;
+		}
+
+		#footer blockquote {
+			border-left-color: transparent;
+		}
+
+		#footer code {
+			background: rgba(255, 255, 255, 0.05);
+			border-color: transparent;
+		}
+
+		#footer hr {
+			border-bottom-color: transparent;
+		}
+
+		#footer a {
+			-moz-transition: color 0.2s ease-in-out;
+			-webkit-transition: color 0.2s ease-in-out;
+			-ms-transition: color 0.2s ease-in-out;
+			transition: color 0.2s ease-in-out;
+			color: #a5a9ad;
+		}
+
+			#footer a:active, #footer a:focus, #footer a:hover {
+				color: #fff;
+			}
+
+		#footer .inner {
+			padding: 6em 0 4em 0;
+			border-top: solid 1px rgba(255, 255, 255, 0.1);
+			margin: 0 auto;
+			width: 75%;
+		}
+
+		#footer ul.icons li {
+			padding-right: 2.5em;
+		}
+
+			#footer ul.icons li:last-child {
+				padding-right: 0;
+			}
+
+		#footer .copyright {
+			color: #a5a9ad;
+			font-size: 0.9em;
+			margin: 0 0 2em 0;
+			padding: 0;
+			text-transform: uppercase;
+		}
+
+			#footer .copyright li {
+				display: inline-block;
+				list-style: none;
+				margin: 0 0.1em;
+			}
+
+		@media screen and (max-width: 980px) {
+
+			#footer .inner {
+				padding: 5em 0 3em 0;
+				width: 100%;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#footer .inner {
+				padding: 3em 0 1em 0;
+			}
+
+			#footer .copyright li {
+				display: block;
+				margin: 0;
+			}
+
+			#footer ul.icons li {
+				font-size: 0.9em;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#footer .inner {
+				padding: 2em 0 0.1em 0;
+			}
+
+		}
